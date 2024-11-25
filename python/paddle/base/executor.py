@@ -3010,7 +3010,7 @@ class Executor:
                             tensor = as_numpy(tensor)
                     except:
                         var = scope.find_var(varname)
-                        tensor = var.get_lod_tensor_array()
+                        tensor = var.get_dense_tensor_array()
                         if return_numpy:
                             tensor = as_numpy(tensor)
                         else:

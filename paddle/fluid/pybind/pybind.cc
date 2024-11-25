@@ -1522,7 +1522,7 @@ All parameter, weight, gradient are variables in Paddle.
           },
           py::return_value_policy::reference)
       .def(
-          "get_lod_tensor_array",
+          "get_dense_tensor_array",
           [](Variable &self) { return self.GetMutable<phi::TensorArray>(); },
           py::return_value_policy::reference)
       .def(
