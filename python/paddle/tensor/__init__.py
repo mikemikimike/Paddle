@@ -105,6 +105,7 @@ from .linalg import (  # noqa: F401
 )
 from .logic import (  # noqa: F401
     __rand__,
+    __ror__,
     allclose,
     bitwise_and,
     bitwise_and_,
@@ -867,6 +868,7 @@ magic_method_func = [
     ('__and__', 'bitwise_and'),
     ('__rand__', '__rand__'),
     ('__or__', 'bitwise_or'),
+    ('__ror__', '__ror__'),
     ('__xor__', 'bitwise_xor'),
     ('__invert__', 'bitwise_not'),
     ('__pos__', 'positive'),
