@@ -1691,7 +1691,7 @@ PHI_DEFINE_EXPORTED_string(
     "It controls the forward blacklist ops not to be decomposed.");
 
 #if defined(PADDLE_WITH_NCCL) || defined(PADDLE_WITH_RCCL) || \
-    defined(PADDLE_WITH_XPU_BKCL)
+    defined(PADDLE_WITH_XPU_BKCL) || defined(PADDLE_WITH_CUSTOM_DEVICE)
 /**
  * Communication library related FLAG
  * Name: FLAGS_dynamic_static_unified_comm
