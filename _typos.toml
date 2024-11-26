@@ -24,8 +24,6 @@ UE = "UE"
 unpacket = "unpacket"
 
 # These words need to be fixed
-assigend = 'assigend'
-assined = 'assined'
 assgin = 'assgin'
 axises = 'axises'
 Axises = 'Axises'
